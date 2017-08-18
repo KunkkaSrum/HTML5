@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+   <head>
+     <title>Sprite Animators</title>
+
+      <style> 
+         body {
+            background: #eeeeee;
+         }
+
+         #canvas {
+            position: absolute;
+            left: 0px;
+            top: 35px;
+            margin-left: 10px;
+            background: lightskyblue;
+            border: thin solid rbga(0,0,0,1.0);
+            -webkit-box-shadow: rgba(0,0,0,0.5) 4px 4px 6px;
+            -moz-box-shadow: rgba(0,0,0,0.5) 4px 4px 6px;
+            box-shadow: rgba(0,0,0,0.5) 4px 4px 6px;
+         }
+
+         #sionButton {
+            position: relative;
+         
+         }
+      </style>
+   </head>
+
+  <body>
+      <audio src="audio/qiu.mp3" autoplay="true">
+      </audio>
+      <canvas id='canvas' width='800' height='600'>
+        Canvas not supported
+      </canvas>
+
+      <input id='sionButton' type='button' value='kaboom'/>
+      
+      <script src='../shared/js/stopwatch.js'></script>
+      <script src='../shared/js/animationTimer.js'></script>
+      <script src='../shared/js/requestNextAnimationFrame.js'></script>
+      <script src='../shared/js/sprites.js'></script>
+      
+      <script src='autumn.js'></script>
+  </body>
+</html>
